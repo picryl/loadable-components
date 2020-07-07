@@ -8,7 +8,7 @@ yarn run lerna version --conventional-prerelease --preid from-git --no-git-tag-v
 git add .
 git commit -m "Publish to git"
 
-for DIR in $(yarn run -s lerna changed --parseable); do
+for DIR in packages/*; do
   (
     VERSION=$(cat "${DIR}/package.json" | jq -r '.version')
     NAME=$(cat "${DIR}/package.json" | jq -r '.name')
