@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.13.2](https://github.com/picryl/loadable-components/compare/v5.13.1...v5.13.2) (2020-07-07)
+
+**Note:** Version bump only for package loadable-components
+
+
+
+
+
 ## [5.13.1](https://github.com/smooth-code/loadable-components/compare/v5.13.0...v5.13.1) (2020-07-02)
 
 
